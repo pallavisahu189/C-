@@ -23,16 +23,16 @@ int main(){
         cout<<a+b;
         break;
 
-        case '-5/' :
-        cout<<a+b;
+        case '-' :
+        cout<<a-b;
         break;
 
         case '*' :
-        cout<<a+b;
+        cout<<a*b;
         break;
 
         case '/' :
-        cout<<a+b;
+        cout<<a/b;
         break;
     }
 
