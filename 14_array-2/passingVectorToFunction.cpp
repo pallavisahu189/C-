@@ -4,7 +4,7 @@ using namespace std;
 
 void change(vector<int>a){
     a[0]=100;
-    for(int i=0; i<a.size(); i++){   // ye pass by value hai 
+    for(int i=0; i<a.size(); i++){   // ye pass by value hai jo new dibba me change krta h phle bnaye huye vector me chenge nhi krta h
         cout<<a[i]<<" ";
     }
     cout<<endl;
