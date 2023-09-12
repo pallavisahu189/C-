@@ -36,7 +36,7 @@ int main(){
     }
     cout<<endl;
 
-    sort01();
+    sort01(v);
 
     for(int i=0; i<v.size(); i++){
         cout<<v[i];
