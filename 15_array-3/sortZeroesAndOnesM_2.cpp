@@ -37,7 +37,7 @@ int main(){
     }
     cout<<endl;
 
-    sort01m2();
+    sort01m2(v);
 
     for(int i=0; i<v.size(); i++){
         cout<<v[i];
