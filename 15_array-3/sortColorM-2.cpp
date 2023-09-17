@@ -31,6 +31,8 @@ void sortColors(vector<int>& nums){
             int temp = nums[mid];
             nums[mid] = nums[low];
             nums[low] = temp;
+            low++;
+            mid++;
         }
         else mid++;
     }
