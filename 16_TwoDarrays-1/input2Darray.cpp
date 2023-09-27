@@ -1,3 +1,5 @@
+// taking 2D array as input from the user.
+
 #include<iostream>
 using namespace std;
 int main(){
