@@ -24,10 +24,11 @@ int main(){
         }
         cout<<endl;
     }
+    cout<<endl;
     //printing transpose- column wise printing
 
-    for(int j=0; j<=n; j++){
-        for(int i=0; i<=m; i++){
+    for(int j=0; j<n; j++){
+        for(int i=0; i<m; i++){
             cout<<arr[i][j]<<" ";
         }
         cout<<endl;
