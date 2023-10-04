@@ -37,6 +37,7 @@ int main(){
         int res[m][q];
         for(int i=0; i<m; i++){
             for(int j=0; j<q; j++){
+                res[i][j] = 0;
                 
                 //multiply
                 //res[i][j] = a[i][0]*b[0][j] + a[i][1]*b[1][j] + a[i][2]*b[2][j] 
