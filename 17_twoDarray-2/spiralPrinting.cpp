@@ -19,4 +19,37 @@ int main(){
     cout<<endl;
     //spiral
 
+    int minr = 0, minc = 0;
+    int maxr = m-1, maxc = n-1;
+
+    while(minr<=maxr && minc<=maxc){
+        // right
+
+        for(int j=minc; j<=maxc; j++){
+            cout<<arr[minr][j]<<" ";
+        }
+        minr++;
+
+        //down
+
+        for(int i=minr; i<=maxr; i++){
+            cout<<arr[i][maxc]<<" ";
+        }
+        maxc--;
+
+        // left
+
+        for(int j=maxc; j>=minc; j--){
+            cout<<arr[maxr][j]<<" ";
+        }
+        maxr--;
+
+        //up
+
+        for(int i=maxr; i>=minr; i--){
+            cout<<arr[i][minc]<<" ";
+        }
+        minc++;
+    }
+}
     
